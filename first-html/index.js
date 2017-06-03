@@ -1,11 +1,6 @@
 console.log("Hi there");
 
-function sleep (milliseconds) {
-    let startTime = Date.now();
-    while(Date.now()< startTime + milliseconds);
+for (let i=1; i<11; i++){
+    console.log("Hi number "+ i);
 }
-
-sleep(2000);
-
-console.log("Hi there after sleep");
 
